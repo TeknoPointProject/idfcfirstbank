@@ -257,3 +257,91 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+
+.section.secondary-nav-section-wrapper {
+  position: sticky;
+  top: 64px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+
+.secondary-nav-section-wrapper .default-content-wrapper ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper {
+  max-width: 1575px;
+  margin: 0;
+  display: flex;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul li {
+  margin: 0;
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #FFFFFF;
+  padding: 0 18px;
+  color: var(--idfc-red);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul li ul {
+  display: none;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul li::after {
+  content: "";
+  border: 2px solid var(--idfc-red);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 0 5px;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul li::after:hover {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li::after {
+  display: none;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li {
+  background: #000 url(https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/home-page-rewamp/IDFC-merger-1.gif) no-repeat -4px 0;
+  background-size: 130px;
+  box-shadow: 0px 0px 5px rgba(155, 30, 38, 0.8);
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0 15px 0 46px;
+  white-space: nowrap;
+}
+
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li a:any-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+main .section.secondary-nav-section-wrapper {
+  font-size: 14px;
+  height: 45px;
+  display: flex;
+  padding: 0 85px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.1);
+}
