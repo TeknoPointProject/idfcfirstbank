@@ -165,6 +165,7 @@ header nav[aria-expanded="true"] .nav-sections {
   display: flex;
   visibility: visible;
   align-self: start;
+  justify-content: space-between;
 }
 
 header nav .nav-sections ul  {
