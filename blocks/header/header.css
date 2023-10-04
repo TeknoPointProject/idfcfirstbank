@@ -1,5 +1,5 @@
 /* header and nav layout */
-header .nav-wrapper {
+header .nav-wrapper {header nav .nav-sections .nav-drop::after
   background-color: var(--background-color);
   width: 100%;
   z-index: 2;
@@ -319,7 +319,7 @@ header nav {
 
 header nav .nav-sections .nav-drop::after {
     color: var(--idfc-red);
-    top: 7px;
+    top: 4px;
 }
 
 .header .nav-wrapper nav .nav-sections:nth-child(3) ul li {
