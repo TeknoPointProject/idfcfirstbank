@@ -245,7 +245,7 @@ header nav .nav-sections ul > li > ul > li {
     border-width: 2px 2px 0 0;
   }
 
-   header nav .nav-sections .nav-drop::after:hover {
+   header nav .nav-sections .nav-drop:hover {
     content: '';
     display: inline-block;
     position: absolute;
