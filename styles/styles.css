@@ -9,7 +9,15 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-
+:root {
+    --black: #000;
+    --idfc-red: #DA3442;
+    --white: #fff;
+    --light-white: #f2f2f2;
+    --baby-pink: #F3DADC;
+    --sky-blue: #E8ECF9;
+    --light-orange: #FFF7E8;
+}
  :root {
   /* colors */
   --link-color: #035fe6;
