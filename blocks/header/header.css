@@ -273,3 +273,359 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+
+header nav {
+    max-width: 1575px;
+}
+
+.nav-wrapper .nav-sections ul li a:hover {
+    font-weight: inherit;
+    background: rgba(157, 29, 39, 0.3);
+    color: #FFFFFF;
+}
+
+.nav-wrapper .nav-sections ul:last-child {
+    background-color: transparent;
+}
+
+header nav .nav-sections .nav-drop::after {
+    color: var(--idfc-red);
+    top: 7px;
+}
+
+.header .nav-wrapper nav .nav-sections:nth-child(3) ul li {
+    margin-right: 10px;
+}
+
+.header .nav-wrapper nav .nav-sections:first-child ul li {
+    margin-right: 0;
+}
+
+.header .nav-wrapper nav .nav-sections:nth-child(3) ul li:last-child {
+    margin-right: 0;
+}
+
+header nav .nav-sections>ul>li>ul::before {
+    display: none;
+}
+
+.nav-sections ul .nav-drop ul {
+    background-color: var(--black);
+}
+
+.nav-wrapper .nav-sections ul:last-child .nav-drop ul {
+    background-color: var(--black);
+    border-radius: 0;
+    color: var(--white);
+    z-index: -1;
+}
+
+header nav .nav-brand img {
+    width: auto;
+    height: 36px;
+}
+
+.nav-wrapper #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-sections em a {
+    text-decoration: none;
+    color: var(--idfc-red);
+    background-color: var(--white);
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+}
+
+header nav a:any-link {
+    color: var(--idfc-red);
+}
+.nav-sections em a:hover {
+    background-color: var(--idfc-red);
+    color: var(--white);
+}
+
+.nav-tools em a {
+    text-decoration: none;
+    color: var(--idfc-red);
+    background-color: var(--white);
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.nav-tools em a:hover {
+    background-color: var(--idfc-red);
+    color: var(--white);
+}
+.header .nav-wrapper #nav .nav-tools p:last-child {
+    display: none;
+}
+@media screen and (min-width:900px) {
+    header nav .nav-sections ul {
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    main .section.secondary-nav-section-wrapper {
+        display: none;
+    }
+
+    .nav-wrapper {
+        background: var(--white);
+    }
+
+    .header .nav-wrapper nav .nav-sections:nth-child(3) ul li {
+        margin-right: 0;
+    }
+
+    .nav-wrapper nav#nav .nav-tools p em a {
+        font-size: 12px;
+        font-weight: 600;
+        border: solid 1px;
+        padding: 8px 15px;
+        margin-left: 15px;
+        line-height: 1.2;
+        background: var(--white);
+        color: var(--idfc-red);
+        border-radius: 25px;
+    }
+
+    header nav .nav-hamburger button {
+        color: var(--idfc-red);
+    }
+
+    header nav .nav-hamburger {
+        order: 3;
+    }
+
+    .nav-wrapper #nav[aria-expanded="true"] {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav[aria-expanded="true"] .nav-sections {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .nav-wrapper .nav-sections ul {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0;
+    }
+
+    header nav[aria-expanded="true"] .nav-brand {
+        flex-basis: auto;
+        padding: 15px 15px 0 15px;
+        display: flex;
+        width: -webkit-fill-available;
+    }
+
+    header nav[aria-expanded="true"] .nav-hamburger {
+        order: unset;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .nav-wrapper .nav-sections ul li {
+        color: var(--black);
+    }
+
+    .nav-wrapper .nav-sections ul:last-child .nav-drop ul {
+        display: none;
+    }
+
+    header nav[aria-expanded="true"] .nav-tools {
+        display: none;
+    }
+
+    header nav[aria-expanded="true"] .nav-sections p em a {
+        display: none;
+    }
+
+    .nav-wrapper .nav-sections ul:last-child {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .nav-wrapper .nav-sections ul:last-child li {
+        padding: 20px 15px;
+        position: relative;
+        background: #f3f3f3;
+        border-bottom: 1px solid #d8d8d8;
+        font-size: 14px;
+        color: #222;
+    }
+
+    header nav[aria-expanded="true"] .nav-sections ul .nav-drop::after {
+        content: "";
+        border: 2px solid var(--idfc-red);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin: 0 5px;
+        position: absolute;
+        top: 29px;
+        right: 20px;
+    }
+
+    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
+        font-size: 16px;
+    }
+
+    h2#a-world-class-bank-in-india {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .header .nav-wrapper #nav .nav-tools p:last-child {
+        display: block;
+    }
+
+    header nav[aria-expanded="false"] .nav-tools {
+        display: flex;
+    }
+
+    #guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
+        font-size: 16px;
+    }
+
+    .hero-section-wrapper .columns-img-col picture {
+        top: unset;
+        left: -62px;
+        z-index: -1;
+    }
+
+    .columns-wrapper:nth-child(2) picture {
+        left: unset;
+    }
+
+    #enjoy-zero-charges-on-28-commonly-used-savings-account-services {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    main .section.hero-section-wrapper {
+        padding: 50px 15px;
+    }
+
+    .hero-section-wrapper .columns-wrapper .columns div:nth-child(2) {
+        max-width: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+        left: 41%;
+    }
+
+    .bank-card-slider-wapper .cards-wrapper .cards.block ul {
+        flex-direction: column;
+
+    }
+
+    .bank-card-slider-wapper .cards-wrapper .cards.block ul li {
+        width: 100%;
+    }
+    .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image{
+        flex: 0 0 70px;
+        width: auto;
+        height: auto;
+    }
+    .section.bank-card-slider-wapper{
+        margin: 20px 15px;
+    }
+    .section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank{
+        font-size: 20px;
+    }
+    .section.bank-card-slider-wapper .default-content-wrapper p{
+        font-size: 14px;
+    }
+    .section.bank-card-slider-wapper .button-container .button.primary{
+        font-size: 12px;
+    }
+
+    .get-more-from-bank-wapper .cards-wrapper .cards ul {
+        flex-direction: column;
+    }
+
+    .get-more-from-bank-wapper .cards-wrapper .cards ul li {
+        margin: 0;
+    }
+
+    .get-more-from-bank-wapper .cards-wrapper .cards ul li .cards-card-body p strong {
+        font-size: 18px;
+    }
+
+    .get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-image {
+        flex: 0 0 70px;
+    }
+
+    .get-more-from-bank-wapper .default-content-wrapper h2#get-more-from-your-bank {
+        font-size: 20px;
+    }
+
+    .section.get-more-from-bank-wapper {
+        margin: 20px 15px;
+    }
+
+    .section.get-more-from-bank-wapper .button-container .button.primary {
+        font-size: 12px;
+    }
+    .section.in-the-spotlight-wrapper{
+        margin: 20px 15px;
+        background-position: 160px 22px;
+    }
+    .in-the-spotlight-wrapper .default-content-wrapper h2#in-the-spotlight{
+        font-size: 20px;
+    }
+    .in-the-spotlight-wrapper .default-content-wrapper p{
+        font-size: 14px;
+    }
+    .in-the-spotlight-wrapper .cards-wrapper .cards ul{
+        flex-direction: column;
+    }
+    .in-the-spotlight-wrapper .cards-wrapper .cards ul li{
+        margin-right: 0;
+    }
+    .section.customer-speak .cards-wrapper .cards ul{
+        flex-direction: column;
+    }
+    .section.customer-speak{
+        margin: 20px 15px;
+    }
+    .customer-speak .default-content-wrapper .button-container a.button.primary{
+        font-size: 12px;
+    }
+    .customer-speak .default-content-wrapper .button-container a.button.primary::after{
+        padding: 2px;
+    }
+    .section.bank-card-slider-wapper .default-content-wrapper .button-container .button.primary::after{
+        padding: 2px;
+    }
+    .section.get-more-from-bank-wapper .default-content-wrapper .button-container .button.primary::after{
+        padding: 2px;
+    }
+}
