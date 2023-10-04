@@ -319,7 +319,7 @@ header nav {
 
 header nav .nav-sections .nav-drop::after {
     color: var(--idfc-red);
-    top: 4px;
+    top: 5px;
 }
 
 .header .nav-wrapper nav .nav-sections:nth-child(3) ul li {
