@@ -186,7 +186,7 @@ main .carousel-container {
   .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
     position: absolute;
     z-index: 0;
-    top: 10;
+    top: 10px;
     left: 0;
     bottom: 0;
     right: 0;
