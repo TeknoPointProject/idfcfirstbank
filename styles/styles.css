@@ -483,6 +483,6 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
     padding:0px
 }
 
-main .get-more-from-bank-wapper .carousel-wrapper carousel:nth-child(1){
+main .get-more-from-bank-wapper .carousel-wrapper .carousel:nth-child(1){
     background-color: #f3dadc;
 }
