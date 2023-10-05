@@ -459,3 +459,9 @@ main .section.secondary-nav-section-wrapper {
     flex: 0 0 50px;
 }
 
+.in-the-spotlight-wrapper .cards-wrapper .cards ul{
+
+    display: flex !important;
+    
+
+}
