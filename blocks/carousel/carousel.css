@@ -9,6 +9,7 @@ main .carousel {
   scroll-behavior: smooth;
   max-width: 1680px;
   margin: auto;
+  height:240px;
 }
 
 main .carousel picture {
