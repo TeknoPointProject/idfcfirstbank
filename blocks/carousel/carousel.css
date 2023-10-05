@@ -88,7 +88,7 @@ main .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons {
   display: flex;
   right: 141px;
   left: 0;
-  justify-content: right;
+  justify-content: center;
 }
 
 main .carousel-buttons button {
