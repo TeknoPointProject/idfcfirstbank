@@ -1,4 +1,4 @@
-main .carousel-container {
+Fmain .carousel-container {
     padding: 0;
   }
   
@@ -279,5 +279,10 @@ main .get-more-from-bank-wapper .default-content-wrapper .button-container{
     display: flex;
     justify-content: center;
 }
+
+.button-container a{
+    background: none;
+}
+
       
   
