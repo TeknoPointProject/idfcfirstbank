@@ -345,3 +345,35 @@ main .section.secondary-nav-section-wrapper {
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.1);
 }
+
+
+.get-more-from-bank-wapper .carousel-wrapper .carousel > div {
+    /* width: 100%; */
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    position: relative;
+    /* min-height: 580px; */
+        width: 34%;
+
+    align-items: flex-end;
+    display: flex;
+}
+
+
+
+.section.get-more-from-bank-wapper.carousel-container {
+    background: #9B1E26;
+    border-radius: 24px;
+    /* padding: 24px 15px 15px 15px; */
+    max-width: 1200px;
+
+
+}
+
+.section.get-more-from-bank-wapper.carousel-container {
+    
+    /* padding-top: 28px; */
+    margin-top: 90px;
+    margin-left: 8%;
+    min-height: 29%;
+}
