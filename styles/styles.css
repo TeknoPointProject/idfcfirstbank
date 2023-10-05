@@ -484,10 +484,10 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 }
 
 
-/* Target the first div within the carousel block */
-.get-more-from-bank-wrapper .carousel-wrapper .carousel .block> div:first-child {
- background-color: #f3dadc;
-}
 
+
+.get-more-from-bank-wapper .carousel-wrapper .carousel:nth-child(1) div{
+     background-color: #f3dadc;
+}
 
 
