@@ -473,6 +473,10 @@ main .get-more-from-bank-wapper .default-content-wrapper .button-container{
     margin: 0px;
 }
 
+main .get-more-from-bank-wapper .default-content-wrapper .button-container .button{
+   background:none;
+}
+
 main .get-more-from-bank-wapper .default-content-wrapper h2{
     margin: 0px;
     padding:0px
