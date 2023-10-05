@@ -485,6 +485,9 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 
 
 /* Target the first div within the carousel block */
-.carousel.block > div:first-child {
+.get-more-from-bank-wrapper .carousel-wrapper .carousel.block > div:first-child {
  background-color: #f3dadc;
 }
+
+
+
