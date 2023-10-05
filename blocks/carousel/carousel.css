@@ -70,7 +70,7 @@ main .carousel-wrapper {
   max-width: unset;
 }
 
-main .carousel-wrapper .hero-section-wrapper .carousel-buttons {
+main .carousel-wrapper .carousel-buttons {
   text-align: center;
   margin-top: 0;
   position: absolute;
