@@ -12,14 +12,14 @@ main .carousel {
   height:240px;
 }
 
-main .carousel picture {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  box-sizing: border-box;
+.hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
 }
 
 main .carousel img {
