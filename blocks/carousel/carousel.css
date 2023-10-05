@@ -12,16 +12,7 @@ main .carousel-container {
     height:240px;
   }
   
-  .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
-      position: absolute;
-      z-index: 0;
-      top: 10px;
-      left: 0px;
-      bottom: 0;
-      right: 0;
-      box-sizing: border-box;
-  }
-  
+
   main .carousel img {
     object-fit: cover;
     width: 100%;
@@ -195,11 +186,12 @@ main .carousel-container {
   .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
     position: absolute;
     z-index: 0;
-    top: 0;
-    left: 4px;
+    top: 10;
+    left: 0;
     bottom: 0;
     right: 0;
     box-sizing: border-box;
+    height: 240px;
   }
   
   .carousel img {
