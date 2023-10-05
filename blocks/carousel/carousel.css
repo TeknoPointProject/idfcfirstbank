@@ -70,7 +70,7 @@ main .carousel-wrapper {
   max-width: unset;
 }
 
-main .carousel-wrapper .carousel-buttons {
+/* main .carousel-wrapper .carousel-buttons {
   text-align: center;
   margin-top: 0;
   position: absolute;
@@ -78,7 +78,7 @@ main .carousel-wrapper .carousel-buttons {
   right: 141px;
   left: 0;
   justify-content: right;
-}
+} */
 
 main .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons {
   text-align: center;
