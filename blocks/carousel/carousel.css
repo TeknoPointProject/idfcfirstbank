@@ -124,7 +124,7 @@ main .carousel-buttons button {
 .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
   position: absolute;
   z-index: 0;
-  top: 0;
+  top: 10px;
   left: 4px;
   bottom: 0;
   right: 0;
@@ -240,7 +240,7 @@ main .carousel-buttons button.selected {
 
 main .section.hero-section-wrapper {
 /*   padding: 50px 15px; */
-  height: 280px;
+  height: 260px;
 }
 
 
