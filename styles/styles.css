@@ -464,4 +464,5 @@ main .get-more-from-bank-wapper .default-content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
