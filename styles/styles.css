@@ -459,10 +459,3 @@ main .section.secondary-nav-section-wrapper {
     flex: 0 0 50px;
 }
 
-
-main .get-more-from-bank-wapper .default-content-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
