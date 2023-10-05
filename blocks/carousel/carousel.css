@@ -80,6 +80,16 @@ main .carousel-wrapper .carousel-buttons {
   justify-content: right;
 }
 
+main .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons {
+  text-align: center;
+  margin-top: 0;
+  position: absolute;
+  display: flex;
+  right: 141px;
+  left: 0;
+  justify-content: right;
+}
+
 main .carousel-buttons button {
   display: block;
   height: 30px;
