@@ -486,8 +486,7 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 
 
 
-.get-more-from-bank-wapper .carousel-wrapper .carousel:nth-child(1) div{
+.get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
      background-color: #f3dadc;
 }
-
 
