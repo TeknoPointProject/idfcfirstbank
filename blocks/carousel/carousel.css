@@ -256,7 +256,14 @@ main .carousel-container {
       top: 20%;
     }
   
-    
+    .hero-section-wrapper .carousel-wrapper .carousel .carousel-text{
+        position: absolute;
+        top: 0;
+        display: block;
+        right: 0;
+        background: transparent;
+    }
+        
   
   .section.hero-section-wrapper.columns-container {
       position: relative;
