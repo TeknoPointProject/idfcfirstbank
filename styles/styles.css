@@ -465,3 +465,10 @@ main .section.secondary-nav-section-wrapper {
     
 
 }
+
+main .get-more-from-bank-wapper .default-content-wrapper .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
