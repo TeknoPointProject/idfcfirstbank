@@ -75,9 +75,9 @@ main .carousel-wrapper .carousel-buttons {
   margin-top: 0;
   position: absolute;
   display: flex;
-  right: 0;
+  right: 10px;
   left: 0;
-  justify-content: center;
+  justify-content: right;
 }
 
 main .carousel-buttons button {
