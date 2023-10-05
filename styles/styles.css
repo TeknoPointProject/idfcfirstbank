@@ -352,7 +352,7 @@ main .section.secondary-nav-section-wrapper {
     flex-shrink: 0;
     scroll-snap-align: start;
     position: relative;
-    /* min-height: 580px; */
+     min-height: 238px; 
         width: 34%;
 
     align-items: flex-end;
