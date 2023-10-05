@@ -128,6 +128,7 @@ main .carousel-buttons button {
   bottom: 0;
   right: 0;
   box-sizing: border-box;
+  height:240px;
 }
 
 .carousel img {
@@ -186,6 +187,7 @@ main .carousel-buttons button.selected {
   /* min-height: 580px; */
   align-items: flex-end;
   display: flex;
+  height:240px;
 }
 .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture {
   position: absolute;
