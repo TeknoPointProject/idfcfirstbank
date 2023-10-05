@@ -377,3 +377,84 @@ main .section.secondary-nav-section-wrapper {
     margin-left: 8%;
     min-height: 29%;
 }
+
+.section.in-the-spotlight-wrapper {
+    box-shadow: 0px 2px 21px 4px rgba(255, 190, 66, 0.6);
+    border-radius: 24px;
+    padding: 24px 15px 15px 15px;
+    background: #FFF4E0 url(https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/homepage/icons/spotlight-stars.png) no-repeat;
+    background-position: 230px 22px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.in-the-spotlight-wrapper .default-content-wrapper h2#in-the-spotlight {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: var(--black);
+    margin: 0;
+}
+
+.in-the-spotlight-wrapper .default-content-wrapper p {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul {
+    height: 100%;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--white);
+    box-shadow: none;
+    background-color: transparent;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1) {
+    background-color: #CE623E;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(2) {
+    background-color: #1948aa;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(3) {
+    background-color: #464646;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(4) {
+    background-color: #d09f41;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image img {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body p:nth-child(1) {
+    margin-bottom: 0px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body p:nth-child(2) {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image {
+    flex: 0 0 50px;
+}
