@@ -196,7 +196,7 @@ main .carousel-buttons button.selected {
   flex-shrink: 0;
   scroll-snap-align: start;
   position: relative;
-  min-height: 580px;
+/*   min-height: 580px; */
   align-items: flex-end;
   display: flex;
   height:240px;
