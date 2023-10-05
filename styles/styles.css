@@ -472,3 +472,8 @@ main .get-more-from-bank-wapper .default-content-wrapper .button-container{
     align-items: center;
     margin: 0px;
 }
+
+main .get-more-from-bank-wapper .default-content-wrapper h2{
+    margin: 0px;
+    padding:0px
+}
