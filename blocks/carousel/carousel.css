@@ -116,7 +116,7 @@ main .carousel-buttons button {
   flex-shrink: 0;
   scroll-snap-align: start;
   position: relative;
-  /* min-height: 580px; */
+  min-height: 580px; 
   align-items: flex-end;
   display: flex;
 }
@@ -235,9 +235,9 @@ main .carousel-buttons button.selected {
 }
 
 
-main .section.hero-section-wrapper {
+/* main .section.hero-section-wrapper {
     padding: 50px 15px;
-}
+} */
 
 
 .section.hero-section-wrapper {
@@ -264,7 +264,7 @@ main .section.hero-section-wrapper {
     position: relative;
   }
 
-  main .section.hero-section-wrapper {
+/*   main .section.hero-section-wrapper {
     padding: 64px 0;
-  }
+  } */
     
