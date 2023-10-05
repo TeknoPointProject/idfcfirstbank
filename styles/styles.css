@@ -371,11 +371,11 @@ main .section.secondary-nav-section-wrapper {
 }
 
 .section.get-more-from-bank-wapper.carousel-container {
-    
     /* padding-top: 28px; */
     margin-top: 90px;
     margin-left: 8%;
     min-height: 29%;
+    padding: 24px 15px 15px 15px;
 }
 
 .section.in-the-spotlight-wrapper {
