@@ -460,7 +460,7 @@ main .section.secondary-nav-section-wrapper {
 }
 
 
-main .get-more-from-bank-wapper .default-content-wrapper .button-container{
+main .get-more-from-bank-wapper .default-content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
