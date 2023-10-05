@@ -260,9 +260,10 @@ main .carousel-container {
         position: absolute;
         top: 0;
         display: block;
-        right: 0;
+        right: 400px;
         background: transparent;
         color: white;
+        max-width: 47%;
     }
         
   
