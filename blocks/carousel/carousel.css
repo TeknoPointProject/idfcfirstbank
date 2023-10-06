@@ -34,7 +34,7 @@ Fmain .carousel-container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: transparent;
-    min-height: 188px;
+    min-height: 120px;
     padding: 0px;
   }
   
