@@ -958,6 +958,13 @@ main .customer-speak .default-content-wrapper .button-container .button{
   
   }
 
+.section.getin-touch.cards-container {
+    padding: 40px 0 40px;
+    padding-bottom: 36px;
+    background: rgba(246, 246, 246, 0.8);
+  
+  }
+
  .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
     height: 110px;
     width: 110px;
