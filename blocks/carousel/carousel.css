@@ -37,11 +37,18 @@ Fmain .carousel-container {
     min-height: 120px;
     padding: 0px;
   }
+
+main .carousel div.carousel-text p:nth-child(1) {
+/*     margin: 10px 0 16px; */
+    line-height: 1.2;
+    font-size: 24px;
+  }
   
-  main .carousel div.carousel-text p:nth-child(1) {
+  main .carousel div.carousel-text p:nth-child(2) {
 /*     margin: 10px 0 16px; */
     line-height: 1.2;
     font-size: 14px;
+    color:#464646;
   }
   
   main .carousel div.carousel-text h2 {
