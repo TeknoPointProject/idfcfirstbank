@@ -1014,7 +1014,6 @@ main .get-more-from-bank-wapper .default-content-wrapper #get-more-from-your-ban
     margin: 0px 0px 20px -14px;
 }
   
-.get-more-from-bank-wapper .carousel-wrapper .carousel-buttons buttonn:nth-child(3){
+.get-more-from-bank-wapper .carousel-wrapper .carousel-buttons button:nth-child(3){
     display : none
 }
-  
