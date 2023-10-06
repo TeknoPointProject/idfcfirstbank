@@ -244,7 +244,7 @@ main .carousel div.carousel-text p:nth-child(1) {
   
   
   main .section.hero-section-wrapper {
-  /*   padding: 50px 15px; */
+    padding: 0;
     height: 260px;
   }
   
