@@ -1183,4 +1183,9 @@ margin-top : 3px;
     display: flex !important;
     justify-content: unset;
 }
+
+.getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
+    height: 50px;
+    width: 50px;
+}
 }
