@@ -484,7 +484,7 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div{
-    border-redious:20px;
+    border-radius: 20px;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
