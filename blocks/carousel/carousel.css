@@ -247,7 +247,7 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
   
   .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture img {
     max-width: 100%;
-    width: 100%;
+    width: auto;
     height: auto;
   }
   
