@@ -1074,3 +1074,18 @@ main .get-more-from-bank-wapper .default-content-wrapper #get-more-from-your-ban
 .section.get-more-from-bank-wapper{
         margin: 32px auto;
 }
+
+main div:nth-child(5) .default-content-wrapper h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+
+}
+
+
+main div:nth-child(5) .default-content-wrapper p{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+
+}
