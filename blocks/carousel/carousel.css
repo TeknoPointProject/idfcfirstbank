@@ -32,10 +32,11 @@ Fmain .carousel-container {
   
   main .carousel div.carousel-text {
     max-width: 1200px;
-    margin: 0 auto;
+/*     margin: 0 auto; */
     background-color: transparent;
     min-height: 120px;
     padding: 0px;
+    margin:0px;
   }
 
 main .carousel div.carousel-text p:nth-child(1) {
