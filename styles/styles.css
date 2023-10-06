@@ -484,19 +484,19 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
-     background-color: #f3dadc;
+     background: #f3dadc;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(2) {
-     background-color: #e8ecf9;
+     background: #e8ecf9;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(3) {
-     background-color: #fff7e8;
+     background: #fff7e8;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(4) {
-     background-color: #f3dadc;
+     background: #f3dadc;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-text{
