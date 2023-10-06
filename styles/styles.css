@@ -601,36 +601,3 @@ main .customer-speak .default-content-wrapper .button-container .button{
     margin:10px 0px;
 }
 
-.section.customer-speak .cards-wrapper {
-    overflow: visible;
-    position: relative;
-    width: 100%;
-}
-
-.section.customer-speak .cards {
-    display: flex !important;
-}
-
-.section.customer-speak .cards ul {
-    height: 100%;
-    margin-top: 16px;
-    display: flex;
-    transition: transform 0.5s ease;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.customer-speak .cards-wrapper .cards ul li:nth-child(1) {
-    background-color: var(--baby-pink);
-}
-
-.customer-speak .cards-wrapper .cards ul li:nth-child(2) {
-    background-color: var(--sky-blue);
-}
-.customer-speak .cards-wrapper .cards ul li:nth-child(3) {
-    background-color: var(--light-orange);
-}
-.customer-speak .cards-wrapper .cards ul li:nth-child(4) {
-    background-color: #f3dadc;
-}
