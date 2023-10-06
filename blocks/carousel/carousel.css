@@ -88,7 +88,16 @@ main .carousel div.carousel-text p:nth-child(1) {
     justify-content: right;
     bottom: 10px;
   }
-  
+  .hero-section-wrappe .carousel-wrapper .carousel-buttons button:before{
+    content: "";
+    border: solid var(--idfc-red);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border-radius: 0;
+  }
   main .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons {
     text-align: center;
     margin-top: 0;
