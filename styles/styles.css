@@ -996,5 +996,10 @@ main .customer-speak .default-content-wrapper .button-container .button{
     font-weight: 500;
     margin-top: 0;
   }
+
+main .get-more-from-bank-wapper .default-content-wrapper .get-more-from-your-bank{
+    color:white;
+    font-size:23px;
+}
   
   
