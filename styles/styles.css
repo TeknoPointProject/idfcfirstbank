@@ -476,7 +476,14 @@ main .get-more-from-bank-wapper .default-content-wrapper .button-container{
 }
 
 main .get-more-from-bank-wapper .default-content-wrapper .button-container .button{
-   background:none;
+    background:none;
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    overflow: unset;
 }
 
 main .get-more-from-bank-wapper .default-content-wrapper h2{
