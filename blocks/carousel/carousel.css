@@ -35,7 +35,7 @@ Fmain .carousel-container {
     margin: 0 auto;
     background-color: transparent;
     min-height: 188px;
-    padding: 0 28px;
+    padding: 0px;
   }
   
   main .carousel div.carousel-text p {
