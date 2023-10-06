@@ -1173,7 +1173,7 @@ margin-top : 3px;
 
 .getin-touch .cards-wrapper .cards ul li {
     border: 0px;
-    display: flex;
+    display: block;
     background-color: transparent;
 }
 .getin-touch .cards-wrapper .cards ul li {
@@ -1181,11 +1181,13 @@ margin-top : 3px;
 }
 .getin-touch .cards-wrapper .cards ul {
     display: flex !important;
-    justify-content: unset;
+    justify-content: center;
 }
 
 .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
     height: 50px;
     width: 50px;
 }
+
+
 }
