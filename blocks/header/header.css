@@ -556,7 +556,7 @@ header nav a:any-link {
     }
 
     main .section.hero-section-wrapper {
-        padding: 50px 15px;
+/*         padding: 50px 15px; */
     }
 
     .hero-section-wrapper .columns-wrapper .columns div:nth-child(2) {
