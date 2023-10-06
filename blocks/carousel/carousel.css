@@ -286,7 +286,12 @@ main .carousel div.carousel-text p:nth-child(1) {
       padding: 64px 0;
     } */
 
-
+.carousel-wrapper .carousel div .carousel-image{
+    background: transparent;
+}
+.carousel-wrapper .carousel div .carousel-text{
+    background: transparent;
+}
 
 
 
