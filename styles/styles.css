@@ -933,5 +933,37 @@ main .customer-speak .default-content-wrapper .button-container .button{
     background: #8f1c25;
   
   }
+
+ .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
+    height: 110px;
+    width: 110px;
+  }
+  
+  .getin-touch .cards-wrapper .cards ul li{
+    text-align: center;
+  }
+  
+  .getin-touch .cards-wrapper .cards ul li {
+    border: 0px;
+    display: flex;
+    background-color: transparent;
+  }
+  
+  .getin-touch .cards-wrapper .cards ul li .cards-card-body {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    padding-top: 20px;
+    background-color: transparent;
+  }
+  
+  .getin-touch .cards-wrapper .cards ul {
+    justify-content: space-between;
+  
+  }
+  
+  .getin-touch .default-content-wrapper h3#get-in-touch-with-us {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 0;
+  }
   
   
