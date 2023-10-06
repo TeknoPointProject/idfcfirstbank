@@ -475,9 +475,9 @@ main .get-more-from-bank-wapper .default-content-wrapper .button-container{
     margin: 0px;
 }
 
-/* main .get-more-from-bank-wapper .default-content-wrapper .button-container .button{
+main .get-more-from-bank-wapper .default-content-wrapper .button-container .button{
    background:none;
-} */
+}
 
 main .get-more-from-bank-wapper .default-content-wrapper h2{
     margin: 0px;
@@ -594,6 +594,6 @@ get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-image picture{
     margin: 0px;
   }
 
-main .customer-speak  .default-content-wrapper .button-container .button{
+/* main .customer-speak  .default-content-wrapper .button-container .button{
     background-color: none;
-}
+} */
