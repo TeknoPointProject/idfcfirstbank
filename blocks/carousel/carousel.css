@@ -38,7 +38,7 @@ Fmain .carousel-container {
     padding: 0px;
   }
   
-  main .carousel div.carousel-text p {
+  main .carousel div.carousel-text p:nth-child(1) {
 /*     margin: 10px 0 16px; */
     line-height: 1.2;
     font-size: 14px;
