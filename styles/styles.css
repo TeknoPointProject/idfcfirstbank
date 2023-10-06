@@ -619,7 +619,31 @@ main .customer-speak .default-content-wrapper .button-container .button{
     margin: 0;
 }
 
+.section.customer-speak .default-content-wrapper .button-container {
+    text-align: center;
+    margin: 25px 0 0 0;
+}
 
+.section.customer-speak .default-content-wrapper .button-container a.button.primary {
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    overflow: unset;
+}
+
+.section.customer-speak .default-content-wrapper .button-container a.button.primary::after {
+    content: "";
+    border: solid var(--white);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 5px;
+}
 
 
 
