@@ -105,8 +105,8 @@ main .carousel div.carousel-text p:nth-child(1) {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(200deg);
-    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(312deg);
     border-radius: 0;
   }
 
