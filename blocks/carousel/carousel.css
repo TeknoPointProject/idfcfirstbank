@@ -39,8 +39,9 @@ Fmain .carousel-container {
   }
   
   main .carousel div.carousel-text p {
-    margin: 10px 0 16px;
+/*     margin: 10px 0 16px; */
     line-height: 1.2;
+    font-size: 14px;
   }
   
   main .carousel div.carousel-text h2 {
