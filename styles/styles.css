@@ -1036,3 +1036,14 @@ main .get-more-from-bank-wapper .default-content-wrapper #get-more-from-your-ban
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
     transform: translateY(-50%);
 }
+
+
+
+.get-more-from-bank-wapper .carousel-wrapper .carousel-buttons button:nth-child(2) {
+    position: absolute;
+    right: -176px;
+    top: -90px;
+    background: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(-50%);
+}
