@@ -1090,3 +1090,20 @@ main div:nth-child(5) .default-content-wrapper p{
 margin-top : 3px;
 
 }
+
+
+
+@media  (max-width:600px){
+    .get-more-from-bank-wapper .carousel-wrapper .carousel > div {
+        width: 99.5%;
+
+    }
+    .section.get-more-from-bank-wapper.carousel-container{
+
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+}
+
+
