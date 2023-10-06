@@ -487,6 +487,10 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
     border-radius: 20px;
 }
 
+.get-more-from-bank-wapper .carousel-wrapper .carousel div carousel-image{
+    background: transparent;
+}
+
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
      background: #f3dadc;
 }
