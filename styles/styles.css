@@ -1103,7 +1103,17 @@ margin-top : 3px;
         margin-left: 14px;
         margin-right: 14px;
     }
+
+    .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons button:nth-child(2) {
+     display: none;
+    }
+    
+    .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons button:nth-child(1):before {
+        display: none;
+    }
     
 }
+
+
 
 
