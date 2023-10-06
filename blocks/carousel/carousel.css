@@ -286,10 +286,10 @@ main .carousel div.carousel-text p:nth-child(1) {
       padding: 64px 0;
     } */
 
-.carousel-wrapper .carousel div .carousel-image{
+.get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-image{
     background: transparent;
 }
-.carousel-wrapper .carousel div .carousel-text{
+.get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-text{
     background: transparent;
 }
 
