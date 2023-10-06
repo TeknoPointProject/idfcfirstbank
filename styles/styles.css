@@ -624,7 +624,7 @@ main .customer-speak .default-content-wrapper .button-container .button{
     margin: 25px 0 0 0;
 }
 
-.section.customer-speak .default-content-wrapper .button-container a.button.primary {
+.section.customer-speak .default-content-wrapper .button-container a.button {
     text-align: center;
     background-color: transparent;
     margin: 0;
@@ -634,7 +634,7 @@ main .customer-speak .default-content-wrapper .button-container .button{
     overflow: unset;
 }
 
-.section.customer-speak .default-content-wrapper .button-container a.button.primary::after {
+.section.customer-speak .default-content-wrapper .button-container a.button::after {
     content: "";
     border: solid var(--white);
     border-width: 0 3px 3px 0;
