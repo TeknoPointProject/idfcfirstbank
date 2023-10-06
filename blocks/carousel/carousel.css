@@ -346,7 +346,11 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
 
 
 @media screen and (max-width: 768px){
-    
+      .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture img {
+            max-width: 100%;
+            width: 200px;
+            height: 225px;
+      }
 }
 
 
