@@ -764,4 +764,174 @@ main .customer-speak .default-content-wrapper .button-container .button{
   .footer-wrapper{
     display: none;
   }
+
+ .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2) picture{
+  
+  
+  position: relative;
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(2) picture{
+  
+  
+  position: relative;
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(2) picture img{
+  width: 43%;
+  
+  }
+  
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2){
+  
+  display: flex;
+  width: 29%;
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2) picture:nth-child(1) {
+  padding-right: 10px;
+  
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2) picture:nth-child(3) {
+  padding-left: 10px;
+  
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(2) p:nth-child(1) {
+  
+  font-size: 20px;
+  font-weight: bolder;
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(1){
+  font-size: 20px;
+  }
+  
+  .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(1){
+  font-size: 20px;
+  font-weight: bolder;
+  }
+  
+  .footer-columns .columns-wrapper .columns div:nth-child(3){
+  
+         margin-bottom: 0px;
+  
+  }
+  
+  
+  
+  .footer-columns .columns-wrapper .columns div {
+  
+  align-items: flex-start;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(1) p:nth-child(2) picture{
+  
+  
+  position: relative;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(3) p:nth-child(2) picture{
+  
+  
+  position: relative;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(3) p:nth-child(2) picture img{
+  width: 43%;
+  
+  }
+  
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(1) p:nth-child(2){
+  
+  display: flex;
+  width: 29%;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(1) p:nth-child(2) picture:nth-child(1) {
+  padding-right: 10px;
+  
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(1) p:nth-child(2) picture:nth-child(3) {
+  padding-left: 10px;
+  
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(2) p:nth-child(1) {
+  font-size: 14px;
+  font-weight: bolder;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(2) p:nth-child(2){
+    font-size: 14px;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(1) p:nth-child(1){
+  font-size: 14px;
+  }
+  
+  .footer-columnss .columns-wrapper:nth-child(1) .columns div div:nth-child(3) p:nth-child(1){
+  font-size: 14px;
+  font-weight: bolder;
+  }
+  
+  .footer-columnss .columns-wrapper .columns div:nth-child(3){
+  
+         margin-bottom: 0px;
+  
+  }
+  
+  
+  
+  .footer-columnss .columns-wrapper .columns div {
+  
+  align-items: flex-start;
+  
+  }
+  /* .section.footer-columnss.columns-container {
+    background: rgba(17, 17, 17, 0.1);
+    position: absolute;
+    padding: 22px 160px;
+    top: 352%;
+    color: white;
+  
+  } */
+  
+  .section.footer-columnss.columns-container{
+    padding: 16px;
+    /* margin-top: -23%; */
+    color: white;
+    background: #8f1c25;
+  
+  }
+  
   
