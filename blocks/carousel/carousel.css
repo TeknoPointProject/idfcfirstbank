@@ -49,6 +49,7 @@ main .carousel div.carousel-text p:nth-child(1) {
     line-height: 1.2;
     font-size: 14px;
     color:#464646;
+    max-width:250px;
   }
   
   main .carousel div.carousel-text h2 {
