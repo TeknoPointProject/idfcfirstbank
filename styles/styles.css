@@ -1179,7 +1179,8 @@ margin-top : 3px;
 .getin-touch .cards-wrapper .cards ul li {
     text-align: center;
 }
-
+.getin-touch .cards-wrapper .cards ul {
+    display: flex !important;
+    justify-content: unset;
 }
-
-
+}
