@@ -88,7 +88,7 @@ main .carousel div.carousel-text p:nth-child(1) {
     justify-content: right;
     bottom: 10px;
   }
-  main .hero-section-wrapper .carousel-wrapper .carousel-buttons button:before{
+  main .hero-section-wrapper .carousel-wrapper .carousel-buttons button:nth-child(1):before{
     content: "";
     border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
