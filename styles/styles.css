@@ -1188,6 +1188,12 @@ margin-top : 3px;
     height: 50px;
     width: 50px;
 }
+.getin-touch .default-content-wrapper h3#get-in-touch-with-us {
+    font-size: 20px;
+    padding-left: 27px !important;
+    font-weight: 500;
+    margin-top: 0;
+}
 
 
 }
