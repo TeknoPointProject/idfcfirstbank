@@ -375,6 +375,10 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
         object-fit: cover;                                                                                
         height: 100%;
     }
+
+    .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture{
+            height: 250px;
+    }
     
 }
 
