@@ -594,6 +594,6 @@ get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-image picture{
     margin: 0px;
   }
 
-main .customer-speak  .default-content-wrapper .button-container{
-    background-color:yello;
+main .customer-speak  .default-content-wrapper .button-container .button{
+    background-color: none;
 }
