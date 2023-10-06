@@ -1113,6 +1113,44 @@ margin-top : 3px;
     .get-more-from-bank-wapper .carousel-wrapper .carousel-buttons button:nth-child(1) {
         display: none;
     }
+
+ .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .getin-touch .cards-wrapper .cards ul li {
+        
+        display: block;
+        
+    }
+
+
+    .getin-touch .cards-wrapper .cards ul li .cards-card-body {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+        padding-top: 20px;
+        font-size: 10px;
+        background-color: transparent;
+        margin : 0px;
+        padding-top : 5px;
+        display: flex;
+        /* margin-left: -12px; */
+    }
+
+     .getin-touch .cards-wrapper .cards  {
+        padding-left: 3px;
+    }
+.getin-touch .default-content-wrapper h3#get-in-touch-with-us {
+        font-size: 20px;
+    padding-left: 3px;
+    
+    }
+
+       .section.getin-touch.cards-container{
+
+        padding: 48px 8px;
+
+    }
     
 }
 
