@@ -1146,14 +1146,40 @@ margin-top : 3px;
     
     }
 
-       .section.getin-touch.cards-container{
-
-        padding: 48px 8px;
-
-    }
+       
     
 }
 
+@media (max-width: 600px){
 
+    .getin-touch .default-content-wrapper h3#get-in-touch-with-us {
+        font-size: 20px;
+        padding-left: 3px;
+        
+    font-weight: 500;
+    margin-top: 0;
+    }
+
+    .getin-touch .cards-wrapper .cards {
+        padding-left: 3px;
+    
+}
+.getin-touch .cards-wrapper .cards ul {
+    justify-content: space-between;
+}
+.getin-touch .cards-wrapper .cards ul li {
+    display: block;
+}
+
+.getin-touch .cards-wrapper .cards ul li {
+    border: 0px;
+    display: flex;
+    background-color: transparent;
+}
+.getin-touch .cards-wrapper .cards ul li {
+    text-align: center;
+}
+
+}
 
 
