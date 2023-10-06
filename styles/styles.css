@@ -536,6 +536,7 @@ get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-image picture{
     list-style: none;
     margin-top: 16px;
     height: 100%;
+    display: flex;
   }
   
   .customer-speak .cards-wrapper .cards ul li {
