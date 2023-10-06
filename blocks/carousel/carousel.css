@@ -367,6 +367,15 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
         justify-content: right;
         bottom: 10px;
     }
+
+    .hero-section-wrapper .carousel-wrapper .carousel div:nth-child(2) .carousel-image picture img{    
+        max-width: 100%;
+        width: 100%;
+        object-position: left;
+        object-fit: cover;                                                                                
+        height: 100%;
+    }
+    
 }
 
 
