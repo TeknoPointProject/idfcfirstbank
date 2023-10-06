@@ -182,7 +182,7 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
     height: auto;
   }
 
-.hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture img:nth-child(2) {
+.hero-section-wrapper .carousel-wrapper .carousel div:nth-child(2) .carousel-image picture img {
     max-width: 100%;
     width: 100%;
     height: auto;
