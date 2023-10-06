@@ -9,7 +9,8 @@ Fmain .carousel-container {
     scroll-behavior: smooth;
     max-width: 1680px;
     margin: auto;
-    height:200px;
+    height: 200px;
+    gap:14px;
   }
   
 
