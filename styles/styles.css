@@ -1069,3 +1069,8 @@ main .get-more-from-bank-wapper .default-content-wrapper #get-more-from-your-ban
     -webkit-transform: rotate(-45deg);
     border-radius: 0;
 }
+
+
+.section.get-more-from-bank-wapper{
+        margin: 32px auto;
+}
