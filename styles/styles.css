@@ -600,3 +600,23 @@ main .customer-speak .default-content-wrapper .button-container .button{
     border-radius: 0px;
     margin:10px 0px;
 }
+
+.section.customer-speak .cards-wrapper {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.section.customer-speak .cards {
+    display: flex !important;
+}
+
+.section.customer-speak .cards ul {
+    height: 100%;
+    margin-top: 16px;
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
