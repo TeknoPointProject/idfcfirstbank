@@ -98,6 +98,18 @@ main .carousel div.carousel-text p:nth-child(1) {
     -webkit-transform: rotate(135deg);
     border-radius: 0;
   }
+
+ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button:nth-child(2):before{
+    content: "";
+    border: solid var(--idfc-red);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border-radius: 0;
+  }
+
 main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
     background-color: white;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
