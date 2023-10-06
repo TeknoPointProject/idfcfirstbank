@@ -620,3 +620,17 @@ main .customer-speak .default-content-wrapper .button-container .button{
     margin: 0;
     list-style: none;
 }
+
+.customer-speak .cards-wrapper .cards ul li:nth-child(1) {
+    background-color: var(--baby-pink);
+}
+
+.customer-speak .cards-wrapper .cards ul li:nth-child(2) {
+    background-color: var(--sky-blue);
+}
+.customer-speak .cards-wrapper .cards ul li:nth-child(3) {
+    background-color: var(--light-orange);
+}
+.customer-speak .cards-wrapper .cards ul li:nth-child(4) {
+    background-color: #f3dadc;
+}
