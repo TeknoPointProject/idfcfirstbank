@@ -310,10 +310,11 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
         position: absolute;
         top: 0;
         display: block;
-        right: 400px;
+/*         right: 400px; */
         background: transparent;
         color: white;
         max-width: 47%;
+        left:210px;
     }
         
   
