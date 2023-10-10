@@ -328,27 +328,35 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-image{
     background: transparent;
+    padding-right: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-text{
     background: transparent;
+    padding-left: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(2) .carousel-image{
     background: transparent;
+    padding-right: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(2) .carousel-text{
     background: transparent;
+    padding-left: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(3) .carousel-image{
     background: transparent;
+    padding-right: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(3) .carousel-text{
     background: transparent;
+    padding-left: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(4) .carousel-image{
     background: transparent;
+    padding-right: 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(4) .carousel-text{
     background: transparent;
+    padding-left: 10px;
 }
 
 
