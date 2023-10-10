@@ -328,7 +328,7 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-image{
     background: transparent;
-    padding-right: 10px;
+    padding:0px 10px;
 }
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-text{
     background: transparent;
