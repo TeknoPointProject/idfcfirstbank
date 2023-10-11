@@ -375,7 +375,7 @@ box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.1);
 }
 
 .hero-section-wrapper .carousel-wrapper .carousel .carousel-text {
-  left: 390px;
+  left: 390px !important;
 }
 .section.get-more-from-bank-wapper.carousel-container {
   /* padding-top: 28px; */
