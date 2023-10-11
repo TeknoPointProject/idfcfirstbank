@@ -499,6 +499,8 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div carousel-image{
     background: transparent;
+    height: 91px;
+    width: 92px;
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
