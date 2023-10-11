@@ -349,6 +349,7 @@ main .section.secondary-nav-section-wrapper {
 }
 
 
+
 .get-more-from-bank-wapper .carousel-wrapper .carousel > div {
     /* width: 100%; */
     flex-shrink: 0;
@@ -1100,8 +1101,15 @@ margin-top : 3px;
 
 
 @media  (max-width:600px){
+
+.get-more-from-bank-wapper .carousel-wrapper .carousel {
+height : height: 165px;
+
+}
     .get-more-from-bank-wapper .carousel-wrapper .carousel > div {
         width: 99.5%;
+    height: 165px;
+    
 
     }
     .section.get-more-from-bank-wapper.carousel-container{
