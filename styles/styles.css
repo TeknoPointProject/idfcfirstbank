@@ -1104,7 +1104,7 @@ margin-top : 3px;
 @media  (max-width:600px){
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel {
-height : height: 165px;
+height : 165px;
 
 }
     .get-more-from-bank-wapper .carousel-wrapper .carousel > div {
@@ -1214,3 +1214,42 @@ h2#get-more-from-your-bank {
     padding-left: 20px;
 }
 
+.section.in-the-spotlight-wrapper {
+ 
+   
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px; 
+  
+}
+
+.section.get-more-from-bank-wapper.carousel-container{
+  content-visibility: auto;
+    contain-intrinsic-size: 1000px; 
+
+}
+.section.customer-speak.cards-container{
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px; 
+
+}
+
+.section.getin-touch.cards-container {
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px; 
+
+}
+
+
+.section.footer-columns.columns-container{
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px; 
+
+
+}
+
+.section.footer-columnss.columns-container{
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px; 
+
+}
+}
