@@ -388,6 +388,17 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
     .hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture{
             height: 250px;
     }
+
+ .hero-section-wrapper .carousel-wrapper .carousel .carousel-text{
+        position: absolute;
+        top: 0;
+        display: block;
+/*         right: 400px; */
+        background: transparent;
+        color: white;
+        max-width: 47%;
+        left: 200px;
+    }
     
 }
 
