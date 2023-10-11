@@ -1,3 +1,5 @@
+
+
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -1101,6 +1103,8 @@ margin-top : 3px;
 
     }
     .section.get-more-from-bank-wapper.carousel-container{
+        height: 278px;
+        width: 357px;
 
         margin-left: 14px;
         margin-right: 14px;
