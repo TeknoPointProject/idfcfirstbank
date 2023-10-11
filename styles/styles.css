@@ -1217,5 +1217,8 @@ h2#get-more-from-your-bank {
   padding-left: 20px;
 }
 
+.hero-section-wrapper .carousel-wrapper .carousel .carousel-text {
+  left: 200px !important;
+}
 
 }
