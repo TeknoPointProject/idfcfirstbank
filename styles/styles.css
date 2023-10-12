@@ -1,4 +1,4 @@
-
+.secondary-nav-section-wrapper .default-content-wrapper ul
 
 /*
  * Copyright 2020 Adobe. All rights reserved.
@@ -275,7 +275,7 @@ margin: 0;
 padding: 0;
 align-items: center;
 height: 100%;
-min-height:100px;
+min-height:50px;
 }
 
 .secondary-nav-section-wrapper .default-content-wrapper {
