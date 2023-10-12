@@ -508,18 +508,26 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
    background: #f3dadc;
+   min-height: 100px;
+
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(2) {
    background: #e8ecf9;
+     min-height: 100px;
+
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(3) {
    background: #fff7e8;
+     min-height: 100px;
+
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(4) {
    background: #f3dadc;
+     min-height: 100px;
+
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-text{
