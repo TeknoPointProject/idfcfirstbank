@@ -295,7 +295,7 @@ padding: 0 18px;
 color: var(--idfc-red);
 white-space: nowrap;
 cursor: pointer;
-min-height:25px;
+height:25px;
 }
 
 .secondary-nav-section-wrapper .default-content-wrapper ul li ul {
