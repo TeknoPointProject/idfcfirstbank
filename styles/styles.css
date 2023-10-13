@@ -1,4 +1,4 @@
-.secondary-nav-section-wrapper .default-content-wrapper ul
+
 
 /*
  * Copyright 2020 Adobe. All rights reserved.
@@ -275,7 +275,6 @@ margin: 0;
 padding: 0;
 align-items: center;
 height: 100%;
-/* min-height:50px; */
 }
 
 .secondary-nav-section-wrapper .default-content-wrapper {
@@ -295,7 +294,6 @@ padding: 0 18px;
 color: var(--idfc-red);
 white-space: nowrap;
 cursor: pointer;
-height:25px;
 }
 
 .secondary-nav-section-wrapper .default-content-wrapper ul li ul {
@@ -334,7 +332,6 @@ color: #FFFFFF;
 display: inline-block;
 padding: 0 15px 0 46px;
 white-space: nowrap;
-min-height:25px
 }
 
 .secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li a:any-link {
@@ -381,7 +378,7 @@ box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.1);
 .section.get-more-from-bank-wapper.carousel-container {
   /* padding-top: 28px; */
   margin-top: 32px;
-  
+  margin-left: 8%;
   min-height: 29%;
   padding: 24px 15px 15px 15px;
   
@@ -511,26 +508,18 @@ main .get-more-from-bank-wapper .default-content-wrapper h2{
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) {
    background: #f3dadc;
-   height: 100px;
-
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(2) {
    background: #e8ecf9;
-   height: 100px;
-
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(3) {
    background: #fff7e8;
-   height: 100px;
-
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(4) {
    background: #f3dadc;
-   height: 100px;
-
 }
 
 .get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-text{
