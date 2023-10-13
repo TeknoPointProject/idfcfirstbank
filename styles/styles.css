@@ -1116,8 +1116,7 @@ height : 165px;
   }
   .section.get-more-from-bank-wapper.carousel-container{
       height: 278px;
-      width: 357px;
-
+/*       width: 357px; */
       margin-left: 14px;
       margin-right: 14px;
   }
@@ -1218,5 +1217,8 @@ h2#get-more-from-your-bank {
 .hero-section-wrapper .carousel-wrapper .carousel .carousel-text {
   left: 200px !important;
 }
+
+ main div:nth-child(5) .default-content-wrapper p{
+  font-size: 15px;
 
 }
