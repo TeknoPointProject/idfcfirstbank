@@ -1230,6 +1230,10 @@ h2#get-more-from-your-bank {
     height: 100%;
     width: 100%;
 }
+.get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-image picture{
+    height: 100%;
+    width: 100%;
+}
 
 }
 
