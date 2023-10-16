@@ -1222,3 +1222,10 @@ h2#get-more-from-your-bank {
   font-size: 15px;
 
 }
+@media screen and (max-width: 768px){
+    main .section.secondary-nav-section-wrapper {
+        display: none;
+    }
+
+}
+
