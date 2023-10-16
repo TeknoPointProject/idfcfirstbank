@@ -402,6 +402,12 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
         max-width: 47%;
         left: 200px;
     }
+
+
+    .get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-text{
+      padding-left: 10px;
+      width: auto;
+    }
     
 }
 
