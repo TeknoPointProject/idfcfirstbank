@@ -406,7 +406,7 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
 
     .get-more-from-bank-wapper .carousel-wrapper .carousel div:nth-child(1) .carousel-text {
       padding-left: 10px;
-      width: auto;
+      width: 100%;
     }
     
 }
