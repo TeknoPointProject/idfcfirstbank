@@ -1248,6 +1248,10 @@ h2#get-more-from-your-bank {
     max-width: 47%;
     left: 200px;
 }
+.section.in-the-spotlight-wrapper {
+   width: 330px;
+   height: 460px;
+}
 
 }
 
