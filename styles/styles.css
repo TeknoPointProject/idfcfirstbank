@@ -1234,6 +1234,9 @@ h2#get-more-from-your-bank {
     height: 100%;
     width: 100%;
 }
+  .get-more-from-bank-wapper .default-content-wrapper h2#get-more-from-your-bank {
+        font-size: 20px;
+    }
 
 }
 
