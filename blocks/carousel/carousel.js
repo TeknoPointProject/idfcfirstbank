@@ -6,11 +6,12 @@ export default function decorate(block) {
       if (entry.isIntersecting) {
         const image = entry.target;
         image.setAttribute('loading', 'eager'); // Preload when in viewport
-        if (!i) image.setAttribute('loading', 'auto'); // Load the first image in the viewport eagerly
         observer.unobserve(image);
       }
     });
   });
+
+  let firstImageInFold = true;
 
   [...block.children].forEach((row, i) => {
     const classes = ['image', 'text'];
@@ -18,6 +19,11 @@ export default function decorate(block) {
       const image = row.children[j];
       image.classList.add(`carousel-${e}`);
       observer.observe(image); // Observe each image
+
+      if (firstImageInFold && isImageInFirstFold(image)) {
+        image.setAttribute('loading', 'auto'); // Load the first image in the fold eagerly
+        firstImageInFold = false;
+      }
     });
 
     /* buttons */
@@ -33,4 +39,9 @@ export default function decorate(block) {
   });
 
   block.parentElement.append(buttons);
+}
+
+function isImageInFirstFold(image) {
+  // Check if an image is in the first fold by comparing its offsetTop with the window's innerHeight
+  return image.offsetTop < window.innerHeight;
 }
