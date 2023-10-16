@@ -377,6 +377,9 @@ main .hero-section-wrapper .carousel-wrapper .carousel-buttons button{
         bottom: 10px;
     }
 
+  main .section.hero-section-wrapper  {
+        height: 250px;
+    }
     .hero-section-wrapper .carousel-wrapper .carousel div:nth-child(2) .carousel-image picture img{    
         max-width: 100%;
         width: 100%;
