@@ -1226,6 +1226,10 @@ h2#get-more-from-your-bank {
     main .section.secondary-nav-section-wrapper {
         display: none;
     }
+.get-more-from-bank-wapper .carousel-wrapper .carousel .carousel-image picture img{
+    height: 100%;
+    width: 100%;
+}
 
 }
 
