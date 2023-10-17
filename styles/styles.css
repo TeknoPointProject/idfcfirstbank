@@ -2525,6 +2525,13 @@
     .in-the-spotlight-wrapper .default-content-wrapper p {
         font-size: 14px;
     }
+.in-the-spotlight-wrapper .default-content-wrapper p {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+
 
 }
 
