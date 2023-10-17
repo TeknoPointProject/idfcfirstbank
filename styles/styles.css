@@ -1244,6 +1244,11 @@ h2#get-more-from-your-bank {
    height: 460px;
 }
 
+section.in-the-spotlight-wrapper {
+    margin: 20px 15px;
+    background-position: 160px 22px;
+}
+
 
 }
 
