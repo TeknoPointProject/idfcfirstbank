@@ -1244,6 +1244,11 @@
      height: 460px;
   }
    */
+
+   .section.in-the-spotlight-wrapper {
+    margin: 20px 15px;
+    background-position: 160px 22px;
+}
   #guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
       font-size: 16px;
   }
