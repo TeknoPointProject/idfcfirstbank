@@ -3,7 +3,7 @@
     {
       "id": "foo",
       "title": "Foo",
-      "url": "/tools/sidekick/foo.html"
-    },
+      "event": "foo"
+    }
   ]
 }
