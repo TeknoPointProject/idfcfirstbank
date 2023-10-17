@@ -680,4 +680,9 @@ header nav a:any-link {
     border-radius: 20px;
     padding: 10px;
 }
+.in-the-spotlight-wrapper .default-content-wrapper p {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
 }
