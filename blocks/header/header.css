@@ -670,4 +670,14 @@ header nav a:any-link {
     .section.get-more-from-bank-wapper .default-content-wrapper .button-container .button.primary::after{
         padding: 2px;
     }
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(2) {
+    background-color: #1948aa;
+}
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
 }
