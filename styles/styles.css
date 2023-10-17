@@ -2520,3 +2520,11 @@
 
 
   }}
+
+@media screen and (max-width: 768px){
+    .in-the-spotlight-wrapper .default-content-wrapper p {
+        font-size: 14px;
+    }
+
+}
+
