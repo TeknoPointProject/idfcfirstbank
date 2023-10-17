@@ -2,6 +2,6 @@
   "specialViews": [{
     "title": "Better JSON Viewer",
     "path": "**.json",
-    "viewer": "/tools/sidekick/better-json-viewer/index.html"
+    "viewer": "/tools/sidekick/sidekick-special-view.html"
   }]
 }
