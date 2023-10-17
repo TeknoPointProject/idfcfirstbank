@@ -1238,30 +1238,12 @@ h2#get-more-from-your-bank {
         font-size: 20px;
     }
 
-.hero-section-wrapper .carousel-wrapper .carousel .carousel-text {
-    position: absolute;
-    top: 0;
-    display: block;
-    /* right: 400px; */
-    background: transparent;
-    color: white;
-    max-width: 47%;
-    left: 200px;
-}
+
 .section.in-the-spotlight-wrapper {
    width: 330px;
    height: 460px;
 }
-  .hero-section-wrapper .carousel-wrapper .carousel .carousel-text {
-        position: absolute;
-        top: 0;
-        display: block;
-        /* right: 400px; */
-        background: transparent;
-        color: white;
-        max-width: 47%;
-        left: 200px;
-    }
+
 
 }
 
