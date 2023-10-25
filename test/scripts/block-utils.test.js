@@ -1,6 +1,7 @@
-/* eslint-disable no-unused-expressions */
-/* global describe before it */
+import type * as ScriptsModule from '../../scripts/scripts';
+import type * as LibModule from '../../scripts/aem.js';
 
+<<<<<<< HEAD
 import { readFile } from '@web/test-runner-commands';
 import { expect } from '@esm-bundle/chai';
 import sinon from 'sinon';
@@ -128,3 +129,7 @@ describe('Sections and blocks', () => {
     });
   });
 });
+=======
+export type Scripts = typeof ScriptsModule;
+export type LibFranklin = typeof LibModule;
+>>>>>>> 699ce10 (changes done)
