@@ -362,8 +362,8 @@ header nav .nav-sections>ul>li>ul::before {
 }
 
 header nav .nav-brand img {
-    width: auto;
-    height: 36px;
+       width: 143px;
+    height: 157px;
 }
 
 .nav-wrapper #nav {
