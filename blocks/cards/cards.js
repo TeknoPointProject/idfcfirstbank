@@ -16,8 +16,3 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
-async function logMovies() {
-  const response = await fetch("https://main--idfcfirstbank--teknopointproject.hlx.page/data.json");
-  const movies = await response.json();
-  console.log(movies);
-}
