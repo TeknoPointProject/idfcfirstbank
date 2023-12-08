@@ -36,7 +36,16 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
 
 
  
+  var div = document.createElement('div');
 
-var div = document.createElement('div');
+  // Add a class to the div element
+  div.classList.add("apidata");
+  
+  // Get the body element
+  var body = document.body;
+  
+  // Append the div element to the body
+  body.appendChild(div);
+
 
 
