@@ -26,7 +26,7 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
   .then(response => response.json())
   .then(data => {
     console.log(data.data);
-    datas=data
+ 
   })
   .catch(error => {
     console.error('Error:', error);
