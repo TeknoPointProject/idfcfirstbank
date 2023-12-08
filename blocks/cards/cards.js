@@ -20,8 +20,8 @@ const proxyUrl = 'https://api.allorigins.win/raw?url=';
 const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.json';
 
 
-var datas;
-async function abc(){
+
+
   fetch(proxyUrl + encodeURIComponent(apiUrl))
   .then(response => response.json())
   .then(data => {
@@ -31,13 +31,9 @@ async function abc(){
   .catch(error => {
     console.error('Error:', error);
   });
-}
 
-await function show(){
-  abc()
-  console.log("this is the data" , data)
 
-}
+
 
  
 
