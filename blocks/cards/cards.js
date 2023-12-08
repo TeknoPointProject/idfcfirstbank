@@ -28,25 +28,30 @@ fetch(proxyUrl + encodeURIComponent(apiUrl))
     var div = document.createElement('div');
     div.classList.add("apidata");
 
-    // Check if data.data exists and it's an object
-    if (data && data.data && typeof data.data === 'object') {
-      // Loop through each key-value pair in data.data
-      for (const key in data.data) {
-        if (data.data.hasOwnProperty(key)) {
-          var itemDiv = document.createElement('div');
+    if (data && data.data && Array.isArray(data.data)) {
+      data.data.forEach(item => {
+        var itemDiv = document.createElement('div');
 
-          var sourceSpan = document.createElement('span');
-          sourceSpan.textContent = key + ": ";
+        // Loop through each property of the object
+        for (const key in item) {
+          if (item.hasOwnProperty(key)) {
+            var propertyDiv = document.createElement('div');
 
-          var destinationSpan = document.createElement('span');
-          destinationSpan.textContent = data.data[key];
+            var sourceSpan = document.createElement('span');
+            sourceSpan.textContent = key + ": ";
 
-          itemDiv.appendChild(sourceSpan);
-          itemDiv.appendChild(destinationSpan);
+            var destinationSpan = document.createElement('span');
+            destinationSpan.textContent = item[key];
 
-          div.appendChild(itemDiv);
+            propertyDiv.appendChild(sourceSpan);
+            propertyDiv.appendChild(destinationSpan);
+
+            itemDiv.appendChild(propertyDiv);
+          }
         }
-      }
+
+        div.appendChild(itemDiv);
+      });
 
       var body = document.body;
       body.appendChild(div);
