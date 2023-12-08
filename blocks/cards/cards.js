@@ -16,3 +16,14 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+const proxyUrl = 'https://api.allorigins.win/raw?url=';
+const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.json';
+
+fetch(proxyUrl + encodeURIComponent(apiUrl))
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
