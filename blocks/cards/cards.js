@@ -25,8 +25,29 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
 fetch(proxyUrl + encodeURIComponent(apiUrl))
   .then(response => response.json())
   .then(data => {
-    console.log(typeof data);
-    console.log(data);
+    var div = document.createElement('div');
+    div.classList.add("apidata");
+
+    // Loop through each key-value pair in the object
+    for (const key in data) {
+      if (data.hasOwnProperty(key)) {
+        var itemDiv = document.createElement('div');
+
+        var sourceSpan = document.createElement('span');
+        sourceSpan.textContent = key + ": ";
+
+        var destinationSpan = document.createElement('span');
+        destinationSpan.textContent = data[key];
+
+        itemDiv.appendChild(sourceSpan);
+        itemDiv.appendChild(destinationSpan);
+
+        div.appendChild(itemDiv);
+      }
+    }
+
+    var body = document.body;
+    body.appendChild(div);
   })
   .catch(error => {
     console.error('Error:', error);
