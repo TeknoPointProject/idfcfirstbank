@@ -152,9 +152,11 @@ if (sk) {
 }
 
 
-async function logMovies() {
-  const response = await fetch("https://main--idfcfirstbank--teknopointproject.hlx.page/data.json");
-  const movies = await response.json();
+ function logMovies() {
+  const response =  fetch("https://main--idfcfirstbank--teknopointproject.hlx.page/data.json");
+  const movies =  response.json();
   console.log(movies);
 }
+
+logMovies()
 
