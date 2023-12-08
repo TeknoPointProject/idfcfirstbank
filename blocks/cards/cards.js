@@ -23,21 +23,36 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
 
 
 fetch(proxyUrl + encodeURIComponent(apiUrl))
-.then(response => response.json())
-.then(data => {
-  // Manipulate the DOM after successful API call
-  var div = document.createElement('div');
-  div.classList.add("apidata");
-  // var datas=JSON.stringify(data);
-  var datas = data.data;
-  console.log(datas)
-  // div.textContent = data. // You can modify this based on the data structure you receive
-  
-  // Get the body element and append the div element
-  var body = document.body;
-  body.appendChild(div);
-})
-.catch(error => {
-  console.error('Error:', error);
-});
+  .then(response => response.json())
+  .then(data => {
+    var div = document.createElement('div');
+    div.classList.add("apidata");
+
+    // Loop through each object in the array
+    data.forEach(item => {
+      // Create a new div for each item
+      var itemDiv = document.createElement('div');
+
+      // Create spans for Source and Destination properties
+      var sourceSpan = document.createElement('span');
+      sourceSpan.textContent = item.Source + ": ";
+
+      var destinationSpan = document.createElement('span');
+      destinationSpan.textContent = item.Destination;
+
+      // Append spans to the item div
+      itemDiv.appendChild(sourceSpan);
+      itemDiv.appendChild(destinationSpan);
+
+      // Append item div to the main div
+      div.appendChild(itemDiv);
+    });
+
+    // Append the main div to the body
+    var body = document.body;
+    body.appendChild(div);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
 
