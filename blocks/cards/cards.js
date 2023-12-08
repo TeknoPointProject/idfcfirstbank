@@ -28,7 +28,9 @@ fetch(proxyUrl + encodeURIComponent(apiUrl))
   // Manipulate the DOM after successful API call
   var div = document.createElement('div');
   div.classList.add("apidata");
-  div.textContent = JSON.stringify(data); // You can modify this based on the data structure you receive
+  var datas=JSON.stringify(data);
+  console.log(data)
+  // div.textContent = data. // You can modify this based on the data structure you receive
   
   // Get the body element and append the div element
   var body = document.body;
