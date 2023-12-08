@@ -22,30 +22,19 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
 
 
 
-  fetch(proxyUrl + encodeURIComponent(apiUrl))
-  .then(response => response.json())
-  .then(data => {
-    console.log(data.data);
- 
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
-
-
-
-
- 
+fetch(proxyUrl + encodeURIComponent(apiUrl))
+.then(response => response.json())
+.then(data => {
+  // Manipulate the DOM after successful API call
   var div = document.createElement('div');
-
-  // Add a class to the div element
   div.classList.add("apidata");
+  div.textContent = JSON.stringify(data); // You can modify this based on the data structure you receive
   
-  // Get the body element
+  // Get the body element and append the div element
   var body = document.body;
-  
-  // Append the div element to the body
   body.appendChild(div);
-
-
+})
+.catch(error => {
+  console.error('Error:', error);
+});
 
