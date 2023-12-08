@@ -28,26 +28,31 @@ fetch(proxyUrl + encodeURIComponent(apiUrl))
     var div = document.createElement('div');
     div.classList.add("apidata");
 
-    // Loop through each key-value pair in the object
-    for (const key in data) {
-      if (data.hasOwnProperty(key)) {
-        var itemDiv = document.createElement('div');
+    // Check if data.data exists and it's an object
+    if (data && data.data && typeof data.data === 'object') {
+      // Loop through each key-value pair in data.data
+      for (const key in data.data) {
+        if (data.data.hasOwnProperty(key)) {
+          var itemDiv = document.createElement('div');
 
-        var sourceSpan = document.createElement('span');
-        sourceSpan.textContent = key + ": ";
+          var sourceSpan = document.createElement('span');
+          sourceSpan.textContent = key + ": ";
 
-        var destinationSpan = document.createElement('span');
-        destinationSpan.textContent = data[key];
+          var destinationSpan = document.createElement('span');
+          destinationSpan.textContent = data.data[key];
 
-        itemDiv.appendChild(sourceSpan);
-        itemDiv.appendChild(destinationSpan);
+          itemDiv.appendChild(sourceSpan);
+          itemDiv.appendChild(destinationSpan);
 
-        div.appendChild(itemDiv);
+          div.appendChild(itemDiv);
+        }
       }
-    }
 
-    var body = document.body;
-    body.appendChild(div);
+      var body = document.body;
+      body.appendChild(div);
+    } else {
+      console.error('Error: Data.data is not in the expected format');
+    }
   })
   .catch(error => {
     console.error('Error:', error);
