@@ -19,11 +19,20 @@ export default function decorate(block) {
 const proxyUrl = 'https://api.allorigins.win/raw?url=';
 const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.json';
 
+
+var datas;
 fetch(proxyUrl + encodeURIComponent(apiUrl))
   .then(response => response.json())
   .then(data => {
-    console.log(data);
+    console.log(data.data);
+    datas=data
   })
   .catch(error => {
     console.error('Error:', error);
   });
+
+  console.log("this is the data" , data)
+
+var div = document.createElement('div');
+
+
