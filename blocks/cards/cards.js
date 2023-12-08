@@ -21,7 +21,8 @@ const apiUrl = 'https://main--idfcfirstbank--teknopointproject.hlx.live/data.jso
 
 
 var datas;
-fetch(proxyUrl + encodeURIComponent(apiUrl))
+async function abc(){
+  fetch(proxyUrl + encodeURIComponent(apiUrl))
   .then(response => response.json())
   .then(data => {
     console.log(data.data);
@@ -30,8 +31,15 @@ fetch(proxyUrl + encodeURIComponent(apiUrl))
   .catch(error => {
     console.error('Error:', error);
   });
+}
 
+await function show(){
+  abc()
   console.log("this is the data" , data)
+
+}
+
+ 
 
 var div = document.createElement('div');
 
