@@ -154,7 +154,7 @@ if (sk) {
 
  // API for get requests
 let fetchRes = fetch(
-"https://jsonplaceholder.typicode.com/todos/1");
+"https://main--idfcfirstbank--teknopointproject.hlx.live/data.json");
      
 // FetchRes is the promise to resolve
 // it by using.then() method
