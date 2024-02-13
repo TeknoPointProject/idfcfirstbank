@@ -16,7 +16,7 @@
 	"environments": [
 	"edit"
 	],
-	"url": "http://localhost:4504/aem/start.html",
+	"url": "http://localhost:4504/assets.html/content/dam/projects",
 	"isPalette": true,
 	"includePaths": [ "**.docx**" ],
 	"passConfig": true,
